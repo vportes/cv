@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-bottom: 2px solid #333;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+}
+
+.left-links span {
+    margin: 0 5px;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left-links a:hover {
+    text-decoration: underline;
+}
+
+.right-info {
+    text-align: right;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #333;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    display: flex;
+    padding-top: 25px;
+}
+
+section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.flex-content {
+    flex: 3;
+}
+
+.side-content {
+    margin-bottom: 20px;
+}
+
+.side-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.side-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.side-content ul li {
+    margin-bottom: 5px;
+}
+
+.skills p, .languages p {
+    font-weight: 600;
+}
